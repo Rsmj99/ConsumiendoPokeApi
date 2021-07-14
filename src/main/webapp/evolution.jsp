@@ -8,7 +8,7 @@
 <body>
     <pre>
         <%
-            String evolution = request.getAttribute("evolution");
+            String evolution = (String) request.getAttribute("evolution");
             out.println(evolution);
         %>
     </pre>
